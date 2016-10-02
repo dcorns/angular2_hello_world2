@@ -6,10 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
-  @Input() name: string; //Pass input for name into this component from parent component
-  constructor() {
+  @Input() name: string; //receive input for name from parent element
+  constructor() { }
 
-  }
   ngOnInit() {
   }
 
